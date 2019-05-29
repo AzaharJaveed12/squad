@@ -10,9 +10,9 @@
 
 
 <script>
-import Header from './components/Header.vue';
-import Footeres from './components/footers.vue';
-import family from './components/family.vue';
+import Header from __dirname+'/components/Header.vue';
+import Footeres from __dirname+'/components/footers.vue';
+import family from __dirname+'/components/family.vue';
  export default {
   components:{
     'app-header':Header,
